@@ -28,7 +28,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 @RestController
-@RequestMapping("/holiday")
+@RequestMapping("/api/v1/holidays")
 public class HolidayController {
 
     private static final Logger logger = LogManager.getLogger(HolidayController.class);
