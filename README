@@ -26,3 +26,13 @@ Al finalizar envía el enlace al repositorio al correo: postulaciones@idesoft, o
 contactó.
 Muchas Gracias por tu tiempo y preocupación
 Atte,
+
+
+#Invocar servicio de rango de fechas
+Para invocar el método en Postman, necesitas hacer una solicitud HTTP GET a la URL correspondiente. Si tu método filterByDateRange está mapeado a la ruta /filter-by-date-range, entonces debes hacer una solicitud GET a esa ruta.
+
+Además, debes asegurarte de proporcionar los parámetros requeridos en la solicitud. En este caso, debes proporcionar un parámetro start y un parámetro end que representen el rango de fechas que deseas filtrar. Puedes proporcionar estos parámetros en la URL como query parameters.
+
+Por ejemplo, si tu servidor está alojado en http://localhost:8080 y deseas filtrar las fechas desde 2023-05-01 hasta 2023-05-31, debes hacer una solicitud GET a la siguiente URL:
+http://localhost:8080/filter-by-date-range?start=2023-05-01&end=2023-05-31
+
